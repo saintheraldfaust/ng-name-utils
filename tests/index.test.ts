@@ -46,9 +46,9 @@ describe('NgNameUtils', () => {
         });
 
         test('should use heuristics for unknown names', () => {
-            // 'Chioma' ends in 'a' -> Female (Heuristic)
-            // Note: Chioma is not in my small dict, so it hits heuristic
-            const result = NgNameUtils.predictGender('Chioma');
+            // 'Zuwaira' ends in 'a' -> Female (Heuristic)
+            // Note: Zuwaira is not in my small dict, so it hits heuristic
+            const result = NgNameUtils.predictGender('Zuwaira');
             expect(result.gender).toBe('Female');
             expect(result.matchType).toBe('Rule');
         });
