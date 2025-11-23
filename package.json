@@ -1,0 +1,29 @@
+{
+  "name": "ng-name-utils",
+  "version": "1.0.0",
+  "description": "A lightweight TypeScript library for parsing names, sanitizing inputs, and predicting gender/ethnicity for the Nigerian market.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/cjs/index.d.ts",
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.esm.json",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "nigeria",
+    "names",
+    "gender-prediction",
+    "ethnicity",
+    "sanitization",
+    "typescript"
+  ],
+  "author": "Kenneth Saint H. Faust",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  }
+}
